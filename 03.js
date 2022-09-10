@@ -8,7 +8,7 @@ console.log(value1**2);
 // you can use under score and dollar symbol
 // first_name(valid)
 // _firstname(valid)
-
+var first_name="vinay";//snake case writting
 // first$name(valid)
 // $firstname(valid)
 
@@ -18,3 +18,4 @@ console.log(value1**2);
 
 // convection
 // start with small letter and use camelCase
+var firstName="vinay";
