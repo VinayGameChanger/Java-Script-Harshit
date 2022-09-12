@@ -23,7 +23,7 @@
 // console.log(typeof age);
 
 // 2nd method
-// age=String(age);
+// age=String(age);  //S must be capital
 // console.log(typeof age);
 
 // convert string to number
@@ -38,5 +38,5 @@
 //2nd method
 let age="22";
 console.log(typeof age);
- age=Number(age);
+ age=Number(age);    //N must be capital
  console.log(typeof age);
