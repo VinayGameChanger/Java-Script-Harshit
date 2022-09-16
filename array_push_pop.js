@@ -13,6 +13,6 @@ console.log(poppedfruit);
 fruits.unshift("orange");
 console.log(fruits);
 
-//shift=remove elements at start also return variable
+//shift=remove elements at start also return removed variable
 let removedFruit=fruits.shift();
 console.log(removedFruit);
