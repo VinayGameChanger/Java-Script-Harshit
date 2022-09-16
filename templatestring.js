@@ -10,3 +10,7 @@ console.log(aboutMe);
 //2nd method(templatestring use backticks and dollar and curly bracket
 aboutMe =`my name is ${firstName} and my age is ${age}`;
 console.log(aboutMe);
+
+//third method
+
+console.log("my name is",firstName,"and my age is",age);

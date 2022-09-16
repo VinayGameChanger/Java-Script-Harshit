@@ -8,6 +8,7 @@ let string3="17";
 let string4="10";
 console.log(string3+string4);
 
+//add two strings which are actually number
 //1st method
 console.log(Number(string3)+Number(string4));
 //2nd method

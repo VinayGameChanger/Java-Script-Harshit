@@ -20,6 +20,7 @@ let new_string="Vinay"
 console.log(new_string);
 console.log(new_string.slice(0,4)); //Vina
 console.log(new_string.slice(1,4));  //ina
+console.log(new_string.slice(0));// Vinay
 
 
 
