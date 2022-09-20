@@ -5,7 +5,7 @@ let array1=["item1","item2"];
 //1st Method simple copy paste
 // let array2=["item1","item2"];
 // console.log(array2===array1); //false because in javascript array 
-// is considered as object so the operator === only return true if both array have the same reference
+// is considered as object so the operator === only return true if both array have the same reference or address
 
 //Method 2 using slice method
 // let array2=array1.slice(0);

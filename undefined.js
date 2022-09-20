@@ -1,5 +1,5 @@
 //undefined
-//null
+
 
 let firstName;
 console.log(firstName);

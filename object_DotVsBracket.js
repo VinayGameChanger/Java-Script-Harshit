@@ -14,6 +14,6 @@ const human={
 console.log(human["person hobbies"]);
 
 
-//we cannot use dot notation                     ation in this case also
+//we cannot use dot notation in this case also
 human[key]="vinay@gmail.com";
 console.log(human);

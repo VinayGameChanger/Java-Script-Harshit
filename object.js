@@ -16,7 +16,7 @@ console.log(human);
 // access data or property from objects
 
 console.log(human.name); // dot notation
-console.log(human["name"]);// bracket notation
+console.log(human["name"]);// bracket notation use "" for accesing property
 
 //how to add more property or key value pair in object
 human.gender="male"; //using dot notation
