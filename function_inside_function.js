@@ -1,4 +1,4 @@
-//function inside function
+//function inside function // higher order dunction
 
 const hello=()=>{
     const addition=(a,b)=>{

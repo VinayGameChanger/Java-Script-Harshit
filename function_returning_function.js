@@ -1,4 +1,4 @@
-//function returning function
+//function returning function // higher order function
 function myFunc(){
     function innerFun(){
         return "Hello Vinay";
