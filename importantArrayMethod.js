@@ -12,6 +12,7 @@
 // }
 
 //print index and number of an array( Method 2 foreach)
+
 //foreach pass two arugument first is number and 2nd one is index 
 // numbers.forEach(myFunc)
 
