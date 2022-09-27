@@ -27,3 +27,8 @@ let totalPay=userCart.reduce((totalPrice,currentproduct)=>{
     return currentproduct.Price+totalPrice ;
 },0)// here we pass  initial value of accumulator or totalPrice as 0
 console.log(totalPay);
+
+//totalPrice                        currentproduct                                   return
+/* 0(initial accumulator value)     {1st obj} than we extract price from this          0+5000
+   5000                              {2nd obj} than we again extract price from this    5000+2000
+   7000                               {3rd obj} again extract price                      7000+500               */
