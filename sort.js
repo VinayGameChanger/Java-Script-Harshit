@@ -57,8 +57,14 @@ const products=[
     {productid:5,prodctName:"p5",price:5500},
     {productid:6,prodctName:"p6",price:30880}
 ]
+//low to high
+// products.sort((a,b)=>{
+//     return (a.price)-(b.price);
+// })
+// console.log(products);
 
-products.sort((a,b)=>{
+//but sort change the originial array to avoid this use clone
+const lowTohigh=products.slice(0).sort((a,b)=>{
     return (a.price)-(b.price);
 })
-console.log(products);
+console.log(lowTohigh);
