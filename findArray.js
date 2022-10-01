@@ -21,3 +21,5 @@ const result= users.find((user)=>{
     return user.userId===3;
 })
 console.log(result);
+
+//find
