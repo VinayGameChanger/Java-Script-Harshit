@@ -76,4 +76,23 @@
 
 // //splice
 // array4.splice(0,1,"X",..."abc");
-// console.log(array4);
+// console.log(array4);const shape = {
+//   radius: 10,
+//   diameter() {
+//     return this.radius * 2;
+//   },
+//   perimeter: () => 2 * Math.PI * this.radius,
+// };
+
+// console.log(shape.diameter());
+// console.log(shape.perimeter());
+const shape = {
+    radius: 10,
+    dia: function() {
+      return this.radius * 2;
+    },
+    perimeter: ()=> 2 * Math.PI * this.radius
+};
+  
+  console.log(shape.dia());
+  console.log(shape.perimeter());
