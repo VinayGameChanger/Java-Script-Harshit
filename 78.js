@@ -27,7 +27,7 @@ function about(){
 function is18(){
     return this.age>=18;
 }
-function createUser(firstName,lastName,email,age,address){
+function createUser(firstName,lastName,age,email,address){
     const user={};
     user.firstName=firstName;
     user.lastName=lastName;
